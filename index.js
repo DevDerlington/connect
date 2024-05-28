@@ -23,6 +23,15 @@ res.write(" <h1>Your mail address  is : </h1>" + email);
 res.write(" <h1>Your passport photograph  : </h1>" + file);
 res.write(" <h1>Your password is : </h1>" + password);
 res.send();
+
+
+  
+})
+app.get("/about", (req,res)=>{
+res.write(" <h1>My name is Anukan Iranlowo. A Student of Yabatech  : </h1>" );
+  res.write(" <h1>My name is Anukan Iranlowo. A Student of Yabatech  : </h1>" );
+res.write(" <h1>My name is Anukan Iranlowo. A Student of Yabatech  : </h1>" );
+  res.send();
 })
 
 
